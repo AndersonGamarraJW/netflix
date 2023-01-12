@@ -12,8 +12,12 @@ body{
     "main main main";
 }
 #netflix-full-logo{
-    width: 100px;
+    width: 150px;
     height: 100px;
+}
+#user-logo{
+    width: 40px;
+    height: 40px;
 }
 header{
     grid-area: header;
