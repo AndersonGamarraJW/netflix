@@ -45,3 +45,7 @@ input[type=text]{
 .info-main-content{
     display: grid;
 }
+#netflix-logo{
+    width: 35px;
+    height: 35px;
+}
