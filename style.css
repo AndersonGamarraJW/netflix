@@ -19,6 +19,8 @@ body{
     width: 40px;
     height: 40px;
 }
-header{
+.header{
     grid-area: header;
+    display: flex;
+    justify-content: space-between;
 }
