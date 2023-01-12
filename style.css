@@ -50,3 +50,6 @@ input[type=text]{
     width: 35px;
     height: 35px;
 }
+.type-main-content{
+    display: flex;
+}
