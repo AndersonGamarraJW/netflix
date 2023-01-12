@@ -3,13 +3,11 @@ body{
     padding: 0;
 }
 .main-container{
-    height: 100vh;
-    width: 100vw;
     display: grid;
-    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-rows: 0.6fr 6fr;
     grid-template-areas: 
-    "header header header"
-    "main main main";
+    "header"
+    "main";
 }
 #netflix-full-logo{
     width: 150px;
@@ -29,4 +27,13 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+.header .header-second-part{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+input[type=text]{
+    width: 200px;
+    height: 20px;
 }
