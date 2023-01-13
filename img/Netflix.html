@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Netflix</title>
+<link rel="stylesheet" href="./Netflix_files/css2"><link rel="stylesheet" href="./Netflix_files/style.css"></head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="header-first-part">
+                <img src="./Netflix_files/netflix-full-logo.png" alt="Netflix Full Logo" id="netflix-full-logo">
+                <a href="http://127.0.0.1:5500/index.html">Inicio</a>
+                <a href="http://127.0.0.1:5500/index.html">Series TV</a>
+                <a href="http://127.0.0.1:5500/index.html">Películas</a>
+                <a href="http://127.0.0.1:5500/index.html">Más recientes</a>
+                <a href="http://127.0.0.1:5500/index.html">Mi lista</a>
+            </div>
+            <div class="header-second-part">
+                <input type="text" placeholder="Títulos,personas,géneros">
+                <p>Infantil</p>
+                <span class="material-symbols-outlined">
+                    redeem
+                </span>
+                <span class="material-symbols-outlined">
+                    notifications
+                </span>
+                <img src="./Netflix_files/netflix-user-logo.png" alt="user-logo" id="user-logo">
+                <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+            </div>
+        </header>
+        <main class="main">
+            <div class="info-main-content">
+                <div class="type-main-content">
+                    <img src="./Netflix_files/netflix-compress-logo.png" alt="Netflix Logo" id="netflix-logo">
+                    <p>Serie</p>
+                </div>
+                <img src="./Netflix_files/ozark-logo.svg.png" alt="Ozark-logo" id="ozark-logo">
+                <div class="ranking-container">
+                    <div class="top">Top 10</div>
+                    <p class="number-ranking-top">N.° 9 en series hoy</p>
+                </div>
+                <p>No hay nada mejor que la familia unida... y si es para ocultar todos juntos fardos de dinero 
+                    negro, mejor que mejor.
+                </p>
+                <div class="info-buttons">
+                    <button>
+                        <span class="material-symbols-outlined">
+                            play_circle
+                        </span>                      
+                        Reproducir
+                    </button>
+                    <button>
+                        <span class="material-symbols-outlined">
+                            info
+                        </span>
+                        Más información
+                    </button>
+                </div>    
+                <div class="limited-year">16+</div>
+            </div>
+            <div class="more-content">
+                <p>Series TV</p>
+                <div class="more-content-item-container">
+                    <!--Imagenes de mas series-->
+                </div>
+            </div>
+        </main>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
