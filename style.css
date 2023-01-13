@@ -91,10 +91,10 @@ input[type=text]{
 }
 .button{
     appearance: none;
-    border: 1px solid;
+    border: none;
     border-radius: 0.2rem;
     color: #E6E6E6;
-    background: rgba(0, 0, 0,0.5);
+    background: rgba(0, 0, 0,0.35);
     display: flex;
     justify-content: center;
     align-items: center;
