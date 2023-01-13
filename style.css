@@ -38,12 +38,15 @@ body{
 }
 .header-first-part > a{
     text-decoration: none;
-    color: black;
+    color: #E6E6E6 ;
+    font-size: 14px;
 }
 .header .header-second-part{
     display: flex;
     align-items: center;
     column-gap: 15px;
+    font-size: 14px;
+    color: #E6E6E6;
 }
 input[type=text]{
     width: 200px;
