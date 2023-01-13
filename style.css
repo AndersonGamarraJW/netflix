@@ -64,6 +64,7 @@ input[type=text]{
 }
 .type-main-content{
     display: flex;
+    align-items: center;
 }
 #ozark-logo{
     width: 350px;
