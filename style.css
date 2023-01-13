@@ -93,7 +93,7 @@ input[type=text]{
     appearance: none;
     border: 1px solid;
     border-radius: 0.2rem;
-    
+    color: #E6E6E6;
     background: rgba(0, 0, 0,0.5);
     display: flex;
     justify-content: center;
