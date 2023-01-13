@@ -101,4 +101,6 @@ input[type=text]{
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     width: 80%;
+    align-content: center;
+    
 }
