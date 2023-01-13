@@ -106,7 +106,7 @@ input[type=text]{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
-    width: 80%;
+    width: 70%;
     align-content: center;
     
 }
