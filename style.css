@@ -13,6 +13,7 @@ body{
 #netflix-full-logo{
     width: 150px;
     height: 100px;
+    
 }
 #user-logo{
     width: 40px;
@@ -52,4 +53,11 @@ input[type=text]{
 }
 .type-main-content{
     display: flex;
+}
+#ozark-logo{
+    width: 550px;
+    height: auto;
+}
+.ranking-container .top{
+    
 }
