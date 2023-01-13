@@ -83,3 +83,22 @@ input[type=text]{
 #top-number{
     font-size: 16px;
 }
+.button{
+    appearance: none;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    
+    background: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    gap: 5px;
+}
+.info-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    width: 80%;
+}
